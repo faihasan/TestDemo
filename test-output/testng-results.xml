@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="601" started-at="2017-11-10T08:05:50Z" finished-at="2017-11-10T08:05:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="601" started-at="2017-11-10T08:05:50Z" finished-at="2017-11-10T08:05:51Z">
+      <class name="TestClass.ValidationTest">
+        <test-method status="PASS" signature="biggestWord()[pri:0, instance:TestClass.ValidationTest@100fc185]" name="biggestWord" duration-ms="11" started-at="2017-11-10T03:05:50Z" finished-at="2017-11-10T03:05:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- biggestWord -->
+        <test-method status="PASS" signature="unitTesting1()[pri:1, instance:TestClass.ValidationTest@100fc185]" name="unitTesting1" duration-ms="523" started-at="2017-11-10T03:05:50Z" finished-at="2017-11-10T03:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitTesting1 -->
+        <test-method status="PASS" signature="unitTesting2()[pri:2, instance:TestClass.ValidationTest@100fc185]" name="unitTesting2" duration-ms="42" started-at="2017-11-10T03:05:51Z" finished-at="2017-11-10T03:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitTesting2 -->
+      </class> <!-- TestClass.ValidationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
