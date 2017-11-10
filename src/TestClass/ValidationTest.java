@@ -3,23 +3,17 @@ package TestClass;
 import TestDemo1.*;
 
 import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
-
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.testng.annotations.AfterMethod;
 
 public class ValidationTest {
 	  String sentence;
 	  String[] word;
 	  biggestWord bigWord;
 
-  @Test (priority = 0, enabled = true)   
+  @Test (priority = 0, enabled = true)   //Test 1 with manual input
   public void biggestWord(){
 	  
 	  bigWord = new biggestWord();
@@ -32,7 +26,7 @@ public class ValidationTest {
 	  	  
   }
   
- @Test (priority = 1, enabled = true)
+ @Test (priority = 1, enabled = true) //Test 2 with Dynamic input from Excel file
 	 public void unitTesting1(){
 	 try {
 	 File src = new File("./TestCase.xlsx");
@@ -71,7 +65,7 @@ public class ValidationTest {
 		 
 	 }
  
- @Test (priority = 2, enabled = true)
+ @Test (priority = 2, enabled = true) //Test 3 Dynamic input from excel file
  public void unitTesting2(){
 	 try {
 	 File src = new File("./TestCase.xlsx");
